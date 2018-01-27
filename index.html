@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Imprima" rel="stylesheet">
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Erikson Murrugarra</title>
@@ -16,29 +17,28 @@
         <figure>
             <!-- logotipo -->
             <img src="images/favicon.png" alt="Erikson Murrugarra" />
-            <h1>Erikson Murrugarra</h1>
+            <h1 id="logo">Erikson Murrugarra</h1>
         </figure>
         <nav>
             <!-- menu -->
             <ul>
                 <li>
-                    <a>Resumen</a>
+                    <a href="#resumen">Resumen</a>
                 </li>
                 <li>
-                    <a>Proyectos</a>
+                    <a href="#proyectos">Proyectos</a>
                 </li>
                 <li>
-                    <a>Formacion</a>
+                    <a href="#formacion">Formacion</a>
                 </li>
                 <li>
-                    <a>Contacto</a>
+                    <a href="#contacto">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section>  <!-- Portada -->
-        <h1>Senior Software Developer & Certified Cloud Architect</h1> <!-- Nombre  -->        
-        <button>Contactame</button> <!-- Boton Contacto -->
+    <section id="resumen">  <!-- Portada -->
+        <h1 id="title">Senior Software Developer & Certified Cloud Architect</h1> <!-- Nombre  -->                
     </section>
     <section> <!-- Resumen -->
         <h2>Resumen</h2>
@@ -46,24 +46,7 @@
             Erikson es Desarrollador de Software y Arquitecto en Cloud certificado.
             Tiene una amplia experiencia de mas de 10 años en la industria y ha participado en diferentes proyectos
             a lo largo de su vida. 
-        </p>        
-    </section>
-    <section> <!-- Proyectos -->
-        <h2>Proyectos</h2>
-        <article> 
-            <img src="images/projects/erlan.png" alt="Erlan Logo" width="50"/>
-            <h3> Erlan Programming Language </h3>
-            <p> Es una herramienta de programacion para ayudar en sus primeros pasos en el  mundo de los algoritmos</p>
-            <button>Conocer Mas</button>
-        </article>
-        <article> 
-            <img src="images/projects/twc.png" alt="Cuy Logo" width="50"/>
-            <h3> The Walking Cuy </h3>
-            <p> Juego Turistico creado con mucho orgullo y amor para la ciudad que me vio nacer y crecer: Barranca</p>
-            <button>Conocer Mas</button>
-        </article>      
-    </section>
-    <section> <!-- Formacion -->        
+        </p>   
         <h3>Certificaciones</h3>
         <ul>
             <li>AWS Certified Solutions Architect</li>
@@ -74,15 +57,37 @@
             <li>Microsoft Certified Technology Specialist</li>
             <li>Microsoft Certified Professional</li>
             <li>Big Data Specialist</li>
-        </ul>
-        <h3>Habilidades</h3>
+        </ul>     
+    </section>
+    <section id="proyectos"> <!-- Proyectos -->
+        <h2>Proyectos</h2>
+        <article> 
+            <img src="images/projects/erlan.png" alt="Erlan Logo" width="90"/>
+            <h3> Erlan Programming Language </h3>
+            <p> Es una herramienta de programacion para ayudar en sus primeros pasos en el  mundo de los algoritmos</p>
+            <button>Conocer Mas</button>
+        </article>
+        <article> 
+            <img src="images/projects/twc.png" alt="Cuy Logo" width="90"/>
+            <h3> The Walking Cuy </h3>
+            <p> Juego Turistico creado con mucho orgullo y amor para la ciudad que me vio nacer y crecer: Barranca</p>
+            <button>Conocer Mas</button>
+        </article>
+        <article>
+            <h3> BCP + Verizon</h3>
+            <p>Tambien he participado en grandes proyectos en las siguientes empresas</p>
+            <button>Ver Experiencias</button>
+        </article>      
+    </section>
+    <section id="formacion"> <!-- Formacion -->        
+        <h2>Habilidades</h2>        
         <ul>
-            <li> <h4>DevOps</h4> <p>Detalle</p> </li>
-            <li> <h4>Amazon Web Services</h4> <p>Detalle</p> </li>            
-            <li> <h4>Spring Boot</h4> <p>Detalle</p> </li>            
+            <li> <h4>DevOps</h4> <p>Jenkins</p> </li>
+            <li> <h4>Cloud Computing</h4> <p>AWS - Google Cloud</p> </li>            
+            <li> <h4>Backend Development</h4> <p>Spring Boot - Spring Cloud - Node.js</p> </li>            
         </ul>
     </section>
-    <section> <!-- Contacto -->
+    <section id="contacto"> <!-- Contacto -->
         <h2>Contacto</h2>
         <article>
             <h3>Para Trabajar conmigo</h3>
