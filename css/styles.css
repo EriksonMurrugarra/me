@@ -1,11 +1,93 @@
+body {
+    font-family: 'Imprima', cursive;
+    margin: 0;
+}
+
+.contenedor {
+    width: 850px;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 img {
   border-radius: 50%;
 }
 
-p, li {
-    font-family: 'Imprima', cursive;
-}
-
 h1, h2, h3, h4 {
     font-family: 'Baloo Bhaina', cursive;
+}
+
+nav {
+    font-size: 15px;
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+header a {
+    color: black;
+}
+
+ul {
+    list-style-type: none
+}
+
+#logoNombre {
+    font-size: 18px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#portada {
+    background-image: url("../images/background.jpg");
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#portada img {
+  border-color: #555555;
+  border-style: inset;
+}
+
+#listaCertificaciones li{
+    width: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;
+}
+
+#formacion ul li {
+    width: 200px;
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid #bbbbbb;
+    border-radius: 10px;   
+}
+
+.proyecto img {
+    float: left;
+    width: 80px;
+}
+
+.proyecto div {
+    float: right;
+}
+
+.proyecto {
+    height: 170px;
 }
