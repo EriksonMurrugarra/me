@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Imprima" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Erikson Murrugarra</title>
+</head>
+
+<body>
+    <header>
+        <!-- header -->       
+        <!-- isotipo -->
+        <div>
+            <a href="index.html"><h1 id="logoNombre">Erikson!</h1></a>   
+            <nav>
+                <!-- menu -->
+                <ul>
+                    <li>
+                        <a href="index.html#resumen">Resumen</a>
+                    </li>
+                    <li>
+                        <a href="index.html#proyectos">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="index.html#formacion">Habilidades</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <section class="contenedor"> 
+   </section>
+    <footer id="contacto"> <!-- Contacto -->
+        <div class="contenedor">
+            <div class="contacto">
+                <figure>
+                    <img src="images/erikson.jpg" alt="Erikson footer" />
+                </figure>
+                <div class="info">
+                    <a href="tel:+51940708089"> <strong>Movil</strong><span>+51 940708089</span></a>
+                    <a href="mailto:erikson.murrugarra@gmail.com"> <strong>Email</strong><span>erikson.murrugarra@gmail.com</span></a>
+                </div>                
+            </div>                  
+            <form class="formulario">
+                <div class="escritor"> 
+                    <h2>Contacto</h2>               
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="motivo">
+                        <label for="contrato">
+                            <input type="radio" name="motivo" id="contrato" value="contrato"> Quieres Contratarme &nbsp; &nbsp;
+                        </label>
+                        <label for="compatir">
+                            <input type="radio" name="motivo" id="compatir" value="compartir"> Dar Conferencias &nbsp; &nbsp; &nbsp; &nbsp;
+                        </label>
+                        <label for="tutor">
+                            <input type="radio" name="motivo" id="tutor" value="tutor"> Brindarte Mentoria
+                        </label>
+                    </div>
+                </div>
+                <div class="asunto">
+                    <label for="asunto">Comentarios:</label>
+                    <textarea name="asunto" id="asunto" cols="25" rows="6"></textarea>
+                    <input type="submit" value="Enviar" />
+                </div>                
+            </form>
+        </div>
+        
+    </footer>
+</body>
+
+</html>
