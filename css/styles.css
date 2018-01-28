@@ -110,3 +110,79 @@ ul {
 .proyecto {
     height: 170px;
 }
+
+footer {
+    background: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+.contacto img {
+    width: 80px;
+}
+
+.contacto strong {
+    display: block;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.contacto {
+    display: flex;
+    width: 300px; 
+    flex-direction: column;
+}
+
+.contacto figure {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .info {
+    display: flex;
+    font-size: 13px;
+}
+
+footer {
+    background-image: url('../images/background.jpg')
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.escritor, .asunto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.motivo {
+    margin-top: 10px;
+}
+
+.formulario label {
+    margin-bottom: 10px;
+}
+
+.asunto {
+    align-items: flex-start;
+    margin-top: 70px;
+}
