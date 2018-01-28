@@ -176,21 +176,45 @@
             </ul>      
         </article> 
     </section>
-    <section id="contacto" class="contenedor"> <!-- Contacto -->
-        <hr/>
-        <h2>Contacto</h2>
-        <p>
-            Correo: erikson.murrugarra@gmail.com
-        </p>
-        <article>
-            <h3>Para Trabajar conmigo</h3>
-            <p>Si estas interesado en contratarme con gusto te escucho. Solo espero que tengas un gran desafio para mi.</p>
-        </article>
-        <article>
-            <h3>Para Compartir Conocimiento</h3>
-            <p>Amo compartir mis conocimientos. Lo unico que te pido es que corras con los gastos de transporte, estadia y alimentacion.</p>
-        </article>            
-    </section>
+    <footer id="contacto"> <!-- Contacto -->
+        <div class="contenedor">
+            <div class="contacto">
+                <figure>
+                    <img src="images/erikson.jpg" alt="Erikson footer" />
+                </figure>
+                <div class="info">
+                    <a href="tel:+51940708089"> <strong>Movil</strong><span>+51 940708089</span></a>
+                    <a href="mailto:erikson.murrugarra@gmail.com"> <strong>Email</strong><span>erikson.murrugarra@gmail.com</span></a>
+                </div>                
+            </div>                  
+            <form class="formulario">
+                <div class="escritor"> 
+                    <h2>Contacto</h2>               
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    <div class="motivo">
+                        <label for="contrato">
+                            <input type="radio" name="motivo" id="contrato" value="contrato"> Quieres Contratarme &nbsp; &nbsp;
+                        </label>
+                        <label for="compatir">
+                            <input type="radio" name="motivo" id="compatir" value="compartir"> Dar Conferencias &nbsp; &nbsp; &nbsp; &nbsp;
+                        </label>
+                        <label for="tutor">
+                            <input type="radio" name="motivo" id="tutor" value="tutor"> Brindarte Mentoria
+                        </label>
+                    </div>
+                </div>
+                <div class="asunto">
+                    <label for="asunto">Comentarios:</label>
+                    <textarea name="asunto" id="asunto" cols="25" rows="6"></textarea>
+                    <input type="submit" value="Enviar" />
+                </div>                
+            </form>
+        </div>
+        
+    </footer>
 </body>
 
 </html>
