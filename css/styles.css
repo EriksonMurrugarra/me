@@ -23,7 +23,8 @@ h1, h2, h3, h4 {
 
 nav {
     font-size: 15px;
-    display: inline-block;
+    float: right;
+    margin-top: 25px;
 }
 
 nav ul {
@@ -32,11 +33,28 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    margin-right: 15px;
 }
 
 
+header div {
+    width: 850px;   
+    margin: auto;
+   
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    color: white;
+    
+}
+
 header a {
-    color: black;
+    color: white;
+    text-decoration: unset;
 }
 
 ul {
@@ -54,6 +72,7 @@ ul {
     color: white;
     text-align: center;
     padding-bottom: 10px;
+    padding-top: 90px;
 }
 
 #portada img {
