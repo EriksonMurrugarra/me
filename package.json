@@ -1,0 +1,19 @@
+{
+  "name": "eriksonmurrugarra",
+  "version": "1.0.0",
+  "description": "This is my personal WebSite code. Use this template for free in your own WebSite ;)",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && mkdir build && cp -R css build/css/ && cp -R images build/images/ && cp index.html build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EriksonMurrugarra/me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EriksonMurrugarra/me/issues"
+  },
+  "homepage": "https://github.com/EriksonMurrugarra/me#readme"
+}
