@@ -17,6 +17,14 @@ img {
   border-radius: 50%;
 }
 
+.book img {
+  border-radius: 10%;
+}
+
+.book div {
+  float: right;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Baloo Bhaina', cursive;
 }
