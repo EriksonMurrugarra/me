@@ -17,6 +17,14 @@ img {
   border-radius: 50%;
 }
 
+.book img {
+  border-radius: 10%;
+}
+
+.book div {
+  float: right;
+}
+
 h1, h2, h3, h4 {
     font-family: 'Baloo Bhaina', cursive;
 }
@@ -67,8 +75,13 @@ ul {
     padding-left: 10px;
 }
 
+#logoNombre span {
+    text-decoration: underline;
+}
+
 #portada {
     background-image: url("../images/background.jpg");
+    background-size: cover;
     color: white;
     text-align: center;
     padding-bottom: 10px;
@@ -149,7 +162,8 @@ footer {
 }
 
 footer {
-    background-image: url('../images/background.jpg')
+    background-image: url('../images/background.jpg');
+    background-size: cover;
 }
 
 footer .contenedor {
@@ -185,4 +199,18 @@ footer .contenedor {
 .asunto {
     align-items: flex-start;
     margin-top: 70px;
+}
+
+.menu li::before {
+  content: '⊙';
+}
+
+.enviar {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: #9dd53a; /* Old browsers */
+    background: -moz-linear-gradient(top, #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }

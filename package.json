@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf build && mkdir build && cp -R css build/css/ && cp -R images build/images/ && cp index.html build",
-    "deploy": "npm run build && firebase deploy --project=erikson-prod"
+    "deploy": "npm run build && firebase deploy --project=erikson-dev"
   },
   "repository": {
     "type": "git",

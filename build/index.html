@@ -16,10 +16,10 @@
         <!-- header -->       
         <!-- isotipo -->
         <div>
-            <a href="index.html"><h1 id="logoNombre">Erikson!</h1></a>   
+            <a href="index.html"><h1 id="logoNombre"><span>E</span>rikson!</h1></a>   
             <nav>
                 <!-- menu -->
-                <ul>
+                <ul class="menu">
                     <li>
                         <a href="#resumen">Resumen</a>
                     </li>
@@ -30,7 +30,7 @@
                         <a href="#formacion">Habilidades</a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="https://medium.com/eriksonmurrugarra">Blog</a>
                     </li>
                     <li>
                         <a href="#contacto">Contacto</a>
@@ -45,16 +45,27 @@
                 <img src="images/erikson.jpg" alt="Erikson Murrugarra" height="150px"/>
             </figure>
             <h1 style="font-size: 30px; line-height: 5px">Erikson Murrugarra</h1> <!-- Nombre  -->                
-            <h3>Senior Software Developer & Certified Cloud Architect</h3> <!-- Nombre  -->                
+            <h3>Senior Software Architect & Certified Cloud Architect & Books Writer</h3> <!-- Nombre  -->                
         </div>       
     </section>
     <section id="resumen" class="contenedor"> <!-- Resumen -->        
         <h2>Resumen</h2>
         <p>
             Erikson es Desarrollador de Software y Arquitecto en Cloud certificado.
-            Tiene una amplia experiencia de mas de 10 años en la industria y ha participado en diferentes proyectos
-            a lo largo de su vida. 
+            Tiene una amplia experiencia de mas de 10 años en la industria y ha participado en diferentes proyectos de toda escala a lo largo de su carrera.
+            En la actualidad escribe libros sobre tecnologias de desarrollo de software y trabaja para grandes empresas de nivel global.
         </p>
+        <article class="book">
+            <h2>Mis Libros</h2>
+          <img src="images/books/mybook.png" alt="Aurelia Book Cover" width="350" style=" border-radius: 10%;"/>
+          <div>
+              <h3> Hands-On Full Stack Web Development with Aurelia </h3>
+              <p> Desarrolla Apps FullStack con AurealiaJS, Node + Express y MongoDB.</p>
+              <a target="blank" href="https://www.packtpub.com/web-development/hands-full-stack-web-development-aurelia">Adquirir en Pact Publishing Store!</a> <br/><br/>
+              <a target="blank" href="https://www.amazon.com/Hands-Full-Stack-Development-Aurelia/dp/1788833201">Adquirir en Amazon.com!</a>
+          </div>
+        </article>
+        <hr/>
         <article>
             <h3>Certificaciones</h3>
             <ul id="listaCertificaciones">
@@ -71,15 +82,18 @@
     </section>
     <section id="proyectos" class="contenedor"> <!-- Proyectos -->
         <hr/>
+        
         <h2>Proyectos</h2>
         <article class="proyecto">
             <img src="images/projects/erlan.png" alt="Erlan Logo"/>
             <div>
                 <h3> Erlan Programming Language </h3>
                 <p> Es una herramienta de programacion para ayudar en sus primeros pasos en el  mundo de los algoritmos</p>
-                <a target="blank" href="https://erlan.digitalpark.io/">Prueba Erlan!</a>
+                <a target="blank" href="https://erlan.eriksonmurrugarra.com/">Prueba Erlan Web!</a> <br/><br/>
+                <a target="blank" href="https://play.google.com/store/apps/details?id=eriksonmurrugarra.erlanprograming">Prueba Erlan Mobile!</a>
             </div>
         </article>
+      </br>
         <article class="proyecto"> 
             <img src="images/projects/twc.png" alt="Cuy Logo">            
             <div>
@@ -88,6 +102,15 @@
                 <a target="blank" href="https://play.google.com/store/apps/details?id=com.litch.game&hl=es_419">Juga Ahora!</a>
             </div>
         </article>
+      </br>
+      <article class="proyecto"> 
+          <img src="images/projects/r2.png" alt="Cuy Logo">            
+          <div>
+              <h3> R2 </h3>
+              <p> Te ayuda a identificar que tarjeta de credito te conviene utilizar en tu momento de compra.</p>
+              <a target="blank" href="https://play.google.com/store/apps/details?id=com.eriksonmurrugarra.r2"> Usar en Android!</a>
+          </div>
+      </article>
         <!-- <article>
             <h3> BCP + Verizon</h3>
             <p> En estas dos empresas he creado proyectos sorprendentes y de gran escala. Por motivos de seguridad no puedo contarte :v</p>
@@ -97,7 +120,15 @@
     </section>
     <section id="formacion" class="contenedor"> <!-- Formacion -->        
         <hr/>
-        <h2>Habilidades</h2>        
+        <h2>Habilidades</h2> 
+        <article>
+            <h4>Containers</h4> 
+            <ul>
+                <li>Kubernetes</li>
+                <li>Docker</li>
+                <li>Amazon Container Services</li>
+            </ul>      
+        </article>       
         <article>
             <h4>DevOps</h4> 
             <ul>
@@ -179,11 +210,11 @@
             </ul>      
         </article> 
     </section>
-    <footer id="contacto"> <!-- Contacto -->
+    <!-- <footer id="contacto"> 
         <div class="contenedor">
             <div class="contacto">
                 <figure>
-                    <img src="images/erikson.jpg" alt="Erikson footer" />
+                    <img src="images/erikson.jpg" alt="Erikson footer" height="80" />
                 </figure>
                 <div class="info">
                     <a href="tel:+51940708089"> <strong>Movil</strong><span>+51 940708089</span></a>
@@ -212,12 +243,12 @@
                 <div class="asunto">
                     <label for="asunto">Comentarios:</label>
                     <textarea name="asunto" id="asunto" cols="25" rows="6"></textarea>
-                    <input type="submit" value="Enviar" />
+                    <input class="enviar" type="submit" value="Enviar" />
                 </div>                
             </form>
         </div>
         
-    </footer>
+    </footer> -->
 </body>
 
 </html>
